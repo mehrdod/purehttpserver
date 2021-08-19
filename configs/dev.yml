@@ -1,0 +1,8 @@
+http:
+  port: 8000
+  maxHeaderMegaBytes: 1
+  readTimeout: 10s
+  writeTimeout: 10s
+others:
+  requestCounterTTL: 60
+  backUpFileName: back_up.txt
